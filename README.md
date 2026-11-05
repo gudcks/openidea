@@ -18,3 +18,9 @@ These are unmodified screenshots from the native application, showing states dur
 | Relink and reopen | Both roots and app projects restored | [06](06-reopened.png) |
 
 Java launcher warnings are visible in the run captures; both tasks completed successfully. Screenshots were reviewed to exclude company content, credentials and user home paths. The ZIP excludes IDE state and build caches. The Gradle wrapper may download its public distribution on first use.
+
+## Native video
+
+https://github.com/user-attachments/assets/6845cd37-73d3-44ab-be7b-abec83f31ad2
+
+[Download MP4](gradle-linkage-demo.mp4). This 60-second recording shows real native UI actions at original speed. Only the idle tail is trimmed; two local home-path snippets in launcher warnings are visibly masked. Task actions and results are unchanged. No audio is included.
