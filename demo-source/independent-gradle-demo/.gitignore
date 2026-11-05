@@ -1,0 +1,4 @@
+.openidea/
+**/.gradle/
+**/build/
+.DS_Store

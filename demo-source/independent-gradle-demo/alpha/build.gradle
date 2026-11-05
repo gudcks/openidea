@@ -1,0 +1,9 @@
+allprojects {
+    tasks.register('identify') {
+        group = 'verification'
+        description = 'Print the owning independent build and project path'
+        doLast {
+            println 'BUILD=alpha;PROJECT=' + project.path
+        }
+    }
+}
